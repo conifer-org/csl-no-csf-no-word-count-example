@@ -110,7 +110,7 @@ test_install_decorate_string: $(TEST_ARTIFACTS_INSTALL_DIR)
 
 # copies directly into CPR (locally)
 publish_conpkg_decorate_string_local: test_install_decorate_string $(CPR_PUBLISH_DIR)
-	bond publish local --conpkg ${TEST_ARTIFACTS_INSTALL_DIR}/random-examples-decorate-string.conpkg \
+	bond publish local --conpkg ${TEST_ARTIFACTS_INSTALL_DIR}/csl-no-csf-no-word-count-example.conpkg \
 	--publish-dir ${CPR_PUBLISH_DIR}
 
 # publishes to a remote CPR (from local test directory)

@@ -26,5 +26,5 @@ decorate_string_atom1 = ["csl_static"]
 decorate_string_atom2 = ["csl_static"]
 
 decorate_string = ["decorate_string_atom1", "decorate_string_atom2"]
-multi_app_thread = ["csl_static"]
-default = ["decorate_string"]
+multi_app_thread = []
+default = []
